@@ -1,0 +1,49 @@
+{
+  "site_id": "43150:다락골천:10",
+  "candidate_rank": 10,
+  "river_name": "다락골천",
+  "admin_name": "제천시",
+  "scene_id": "C1_20251101012702_25610_00006119",
+  "acquired_at": "2025-11-01",
+  "cloud_cover_percent": 0,
+  "product_level": "L2G",
+  "available_bands": [
+    "PAN",
+    "Red",
+    "Green",
+    "Blue",
+    "NIR"
+  ],
+  "resolution_m": {
+    "pan": 0.5,
+    "multispectral": 2.0
+  },
+  "georeferencing": {
+    "status": "reconstructed",
+    "reason": "The downloaded TIFF headers contain no CRS, transform, GCPs, or RPCs.",
+    "temporary_method": "EPSG:5179 affine fit from the auxiliary XML footprint and robust valid-boundary edge regression",
+    "control_point_rmse_m": 3.553,
+    "alignment_verdict": "partially_confirmed"
+  },
+  "reference_watercourses": {
+    "source": "N3L_C0050000 continuous topographic watercourse lines",
+    "source_crs": "EPSG:5179",
+    "nearby_feature_count": 40,
+    "intersecting_feature_count": 38,
+    "total_length_m": 3423.438,
+    "inside_zone_length_m": 2776.323,
+    "inside_length_ratio": 0.811
+  },
+  "visual_interpretation": {
+    "vegetation": "observable",
+    "road_and_buildings": "observable",
+    "water_surface": "partially_observable",
+    "embankment": "partially_observable",
+    "revetment": "difficult",
+    "continuous_channel_tracking": "difficult"
+  },
+  "overall_classification": "partially_observable",
+  "classification_ko": "부분 가능",
+  "summary_ko": "PAN에서는 도로, 건물, 농경지 경계와 수목 경계가 선명하고 RGB에서는 식생과 비식생 구분이 가능하다. 복원 좌표의 기준점 RMSE는 3.553m이며 주변 기준 수계선 40개 중 38개가 소하천구역과 교차한다. 개방 구간에서는 수계선과 영상의 계곡·수로 선형이 맞지만 산지 구간은 수면이 수관과 긴 그림자에 가려져 연속적으로 추적하기 어렵다.",
+  "next_required_action": "Repeat the same workflow on at least four more sites and retain supplier georeferencing as a production requirement."
+}

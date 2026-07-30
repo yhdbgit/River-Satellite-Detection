@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="충북 하천 국토위성 검증 대시보드"
+    />
+    <title>충북 하천 위성 검증</title>
+    <link rel="stylesheet" href="/dashboard/leaflet.css" />
+    <link rel="stylesheet" href="/dashboard/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="검증 후보 목록">
+        <header class="sidebar-header">
+          <div>
+            <p class="eyebrow">NATIONAL LAND SATELLITE VALIDATION</p>
+            <h1>충북 하천 위성 검증</h1>
+          </div>
+          <div class="selection-count" aria-live="polite" hidden>
+            <strong id="selected-count">0</strong>
+            <span>/ 5 선택</span>
+          </div>
+        </header>
+
+        <section class="controls" aria-label="후보 필터">
+          <div class="dataset-modes" role="group" aria-label="하천 데이터 구분">
+            <button type="button" data-dataset-mode="small">소하천 후보</button>
+            <button type="button" data-dataset-mode="regional" class="active">
+              지방하천 비교군
+            </button>
+          </div>
+          <label class="search-field" for="candidate-search">
+            <span>하천 검색</span>
+            <input
+              id="candidate-search"
+              type="search"
+              placeholder="하천명 또는 시·군"
+              autocomplete="off"
+            />
+          </label>
+          <label class="select-field" for="width-filter" hidden>
+            <span>폭 구간</span>
+            <select id="width-filter">
+              <option value="all">전체 구간</option>
+              <option value="wide">넓음</option>
+              <option value="medium">중간</option>
+              <option value="narrow">좁음</option>
+            </select>
+          </label>
+        </section>
+
+        <div class="legend" aria-label="폭 구간 범례">
+          <span><i class="legend-swatch wide"></i>넓음</span>
+          <span><i class="legend-swatch medium"></i>중간</span>
+          <span><i class="legend-swatch narrow"></i>좁음</span>
+        </div>
+
+        <section class="candidate-list" id="candidate-list" aria-live="polite">
+          <div class="loading-state">후보 데이터를 불러오는 중</div>
+        </section>
+
+        <footer class="sidebar-footer">
+          <p id="save-status" role="status">최종 검증지 5곳을 선택하세요.</p>
+          <button id="save-selection" type="button" disabled hidden>
+            선택 결과 저장
+          </button>
+        </footer>
+      </aside>
+
+      <section class="map-panel" aria-label="충북 하천 검증 지도">
+        <div id="map"></div>
+        <div class="map-toolbar">
+          <button id="fit-candidates" class="icon-button" type="button" title="전체 후보 보기" aria-label="전체 후보 보기">
+            <span aria-hidden="true">⌗</span>
+          </button>
+        </div>
+        <div class="imagery-controls" aria-label="영상 레이어">
+          <div class="imagery-modes" role="group" aria-label="영상 종류">
+            <button type="button" data-imagery-mode="base" class="active">일반</button>
+            <button type="button" data-imagery-mode="pan" disabled>PAN</button>
+            <button type="button" data-imagery-mode="rgb" disabled>RGB</button>
+          </div>
+          <label class="reference-toggle" for="reference-watercourses">
+            <input id="reference-watercourses" type="checkbox" disabled />
+            <span class="reference-swatch" aria-hidden="true"></span>
+            <span>수계선</span>
+          </label>
+          <label for="imagery-opacity">
+            <span>영상 투명도</span>
+            <input
+              id="imagery-opacity"
+              type="range"
+              min="20"
+              max="100"
+              value="82"
+              disabled
+            />
+          </label>
+        </div>
+        <section class="site-detail" id="site-detail" aria-live="polite">
+          <div class="detail-empty">
+            <span class="detail-index">01—05</span>
+            <p>지도 또는 목록에서 구역을 선택하세요.</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="/dashboard/app.js"></script>
+  </body>
+</html>

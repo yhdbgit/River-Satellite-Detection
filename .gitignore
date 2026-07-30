@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.codex_tmp/
+data/imagery/raw/*.tif
+data/imagery/raw/*.tiff
+data/imagery/raw/*_source.xml
+data/imagery/scenes/*.vrt

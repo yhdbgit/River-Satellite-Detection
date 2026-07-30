@@ -1,0 +1,43 @@
+<VRTDataset rasterXSize="10153" rasterYSize="7938">
+  <SRS dataAxisToSRSAxisMapping="1,2">EPSG:5179</SRS>
+  <GeoTransform>1048025.634402545,1.991211003483996,0.007195854289206,1901704.025602592,0.001165859255322,-1.999794716262756</GeoTransform>
+  <Metadata>
+    <MDI key="GEOREFERENCING_STATUS">reconstructed</MDI>
+    <MDI key="GEOREFERENCING_METHOD">CAS500 auxiliary footprint and robust valid-boundary edge affine fit</MDI>
+    <MDI key="GEOREFERENCING_RMSE_M">3.553</MDI>
+    <MDI key="SCENE_ID">C1_20251101012702_25610_00006119</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <NoDataValue>0</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">site_10_43150_red_source.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10153" RasterYSize="7938" DataType="UInt16" BlockXSize="10153" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10153" ySize="7938" />
+      <DstRect xOff="0" yOff="0" xSize="10153" ySize="7938" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <NoDataValue>0</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">site_10_43150_green_source.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10153" RasterYSize="7938" DataType="UInt16" BlockXSize="10153" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10153" ySize="7938" />
+      <DstRect xOff="0" yOff="0" xSize="10153" ySize="7938" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <NoDataValue>0</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">site_10_43150_blue_source.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10153" RasterYSize="7938" DataType="UInt16" BlockXSize="10153" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="10153" ySize="7938" />
+      <DstRect xOff="0" yOff="0" xSize="10153" ySize="7938" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

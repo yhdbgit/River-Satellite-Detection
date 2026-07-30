@@ -1,0 +1,24 @@
+{
+  "source": "data/LSMD_CONT_UJ301_5174_43_202607",
+  "source_crs": "EPSG:5174",
+  "output_crs": "EPSG:4326",
+  "filter_policy": {
+    "exclude": "ALIAS or REMARK contains 예정지",
+    "include": "ALIAS contains 구역 and REMARK is not blank",
+    "river_name_source": "normalized REMARK, falling back to ALIAS"
+  },
+  "filter_counts": {
+    "ambiguous_zone_type": 2227,
+    "included": 1095,
+    "missing_river_name": 1,
+    "planned_area": 4119
+  },
+  "explicit_zone_records": 1095,
+  "dissolved_river_zones": 1064,
+  "recommended_candidates": 10,
+  "width_proxy_formula": "2 * polygon_area / polygon_perimeter",
+  "width_class_thresholds_m": {
+    "narrow_max": 8.556,
+    "wide_min": 15.781
+  }
+}

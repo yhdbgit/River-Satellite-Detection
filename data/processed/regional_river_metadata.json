@@ -1,0 +1,14 @@
+{
+  "source": "data/regional_rivers/LSMD_CONT_UJ201_5174_43_202607",
+  "source_crs": "EPSG:5174",
+  "output_crs": "EPSG:4326",
+  "target_names": [
+    "보강천",
+    "백곡천"
+  ],
+  "feature_count": 5,
+  "counts": {
+    "보강천": 4,
+    "백곡천": 1
+  }
+}

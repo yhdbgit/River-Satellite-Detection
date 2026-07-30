@@ -1,0 +1,86 @@
+{
+  "selected_ids": [
+    "43730:삼남천:2",
+    "43110:산막천:5",
+    "43770:오신천:9",
+    "43150:다락골천:10",
+    "43150:방도교천:1"
+  ],
+  "sites": [
+    {
+      "id": "43150:방도교천:1",
+      "admin_code": "43150",
+      "admin_name": "제천시",
+      "river_name": "방도교천",
+      "source_record_count": 1,
+      "latest_notice_date": "20181214",
+      "area_m2": 303497.5,
+      "perimeter_m": 9675.15,
+      "width_proxy_m": 62.74,
+      "width_class": "wide",
+      "center_lon": 128.0122921,
+      "center_lat": 37.1663373,
+      "candidate_rank": 1
+    },
+    {
+      "id": "43730:삼남천:2",
+      "admin_code": "43730",
+      "admin_name": "옥천군",
+      "river_name": "삼남천",
+      "source_record_count": 1,
+      "latest_notice_date": "",
+      "area_m2": 64249.6,
+      "perimeter_m": 8308.49,
+      "width_proxy_m": 15.47,
+      "width_class": "medium",
+      "center_lon": 127.7383455,
+      "center_lat": 36.291029,
+      "candidate_rank": 2
+    },
+    {
+      "id": "43110:산막천:5",
+      "admin_code": "43110",
+      "admin_name": "청주시",
+      "river_name": "산막천",
+      "source_record_count": 1,
+      "latest_notice_date": "",
+      "area_m2": 59536.62,
+      "perimeter_m": 8049.46,
+      "width_proxy_m": 14.79,
+      "width_class": "medium",
+      "center_lon": 127.3998191,
+      "center_lat": 36.5555458,
+      "candidate_rank": 5
+    },
+    {
+      "id": "43770:오신천:9",
+      "admin_code": "43770",
+      "admin_name": "음성군",
+      "river_name": "오신천",
+      "source_record_count": 1,
+      "latest_notice_date": "20190705",
+      "area_m2": 217449.37,
+      "perimeter_m": 14851.61,
+      "width_proxy_m": 29.28,
+      "width_class": "wide",
+      "center_lon": 127.6325986,
+      "center_lat": 37.0159927,
+      "candidate_rank": 9
+    },
+    {
+      "id": "43150:다락골천:10",
+      "admin_code": "43150",
+      "admin_name": "제천시",
+      "river_name": "다락골천",
+      "source_record_count": 1,
+      "latest_notice_date": "20181214",
+      "area_m2": 79508.84,
+      "perimeter_m": 10882.1,
+      "width_proxy_m": 14.61,
+      "width_class": "medium",
+      "center_lon": 128.1333832,
+      "center_lat": 37.0531078,
+      "candidate_rank": 10
+    }
+  ]
+}

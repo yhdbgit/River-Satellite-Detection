@@ -1,0 +1,6 @@
+﻿candidate_rank,river_name,segment_index,admin_code,admin_name,river_class,width_proxy_m,area_m2,latest_notice_date,center_lon,center_lat,imagery_file_stem
+1,보강천,1,43110,청주시,regional,104.4,577144.89,20190517,127.5418057,36.7732553,regional_01_43110
+2,보강천,2,43745,증평군,regional,142.14,1248085.88,,127.6139933,36.7976407,regional_02_43745
+3,보강천,3,43750,진천군,regional,107.19,576898.13,20190517,127.5421563,36.7742245,regional_03_43750
+4,보강천,4,43760,괴산군,regional,77.58,541904.89,,127.6367369,36.8279155,regional_04_43760
+5,백곡천,1,43750,진천군,regional,153.04,4456855.98,,127.3999845,36.8671804,regional_05_43750

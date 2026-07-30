@@ -1,0 +1,21 @@
+<VRTDataset rasterXSize="40615" rasterYSize="31755">
+  <SRS dataAxisToSRSAxisMapping="1,2">EPSG:5179</SRS>
+  <GeoTransform>1048025.634402545,0.497802750870999,0.001798963572301,1901704.025602592,0.000291464813830,-0.499948679065689</GeoTransform>
+  <Metadata>
+    <MDI key="GEOREFERENCING_STATUS">reconstructed</MDI>
+    <MDI key="GEOREFERENCING_METHOD">CAS500 auxiliary footprint and robust valid-boundary edge affine fit</MDI>
+    <MDI key="GEOREFERENCING_RMSE_M">3.553</MDI>
+    <MDI key="SCENE_ID">C1_20251101012702_25610_00006119</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <ColorInterp>Gray</ColorInterp>
+    <NoDataValue>0</NoDataValue>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">site_10_43150_pan_source.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="40615" RasterYSize="31755" DataType="UInt16" BlockXSize="40615" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="40615" ySize="31755" />
+      <DstRect xOff="0" yOff="0" xSize="40615" ySize="31755" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

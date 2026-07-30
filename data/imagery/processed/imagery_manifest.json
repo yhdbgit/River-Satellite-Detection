@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "site_count": 5,
+  "ready_layers": 2,
+  "expected_layers": 10,
+  "sites": [
+    {
+      "id": "43150:방도교천:1",
+      "candidate_rank": 1,
+      "admin_code": "43150",
+      "admin_name": "제천시",
+      "river_name": "방도교천",
+      "width_class": "wide",
+      "width_proxy_m": 62.74,
+      "aoi_bbox_wgs84": [
+        127.9980774,
+        37.1561967,
+        128.0335013,
+        37.1765384
+      ],
+      "layers": {
+        "pan": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_01_43150_pan.tif"
+        },
+        "rgb": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_01_43150_rgb.tif"
+        }
+      }
+    },
+    {
+      "id": "43730:삼남천:2",
+      "candidate_rank": 2,
+      "admin_code": "43730",
+      "admin_name": "옥천군",
+      "river_name": "삼남천",
+      "width_class": "medium",
+      "width_proxy_m": 15.47,
+      "aoi_bbox_wgs84": [
+        127.7278274,
+        36.2784933,
+        127.7555562,
+        36.3035826
+      ],
+      "layers": {
+        "pan": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_02_43730_pan.tif"
+        },
+        "rgb": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_02_43730_rgb.tif"
+        }
+      }
+    },
+    {
+      "id": "43110:산막천:5",
+      "candidate_rank": 5,
+      "admin_code": "43110",
+      "admin_name": "청주시",
+      "river_name": "산막천",
+      "width_class": "medium",
+      "width_proxy_m": 14.79,
+      "aoi_bbox_wgs84": [
+        127.3707293,
+        36.547514,
+        127.4029541,
+        36.563549
+      ],
+      "layers": {
+        "pan": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_05_43110_pan.tif"
+        },
+        "rgb": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_05_43110_rgb.tif"
+        }
+      }
+    },
+    {
+      "id": "43770:오신천:9",
+      "candidate_rank": 9,
+      "admin_code": "43770",
+      "admin_name": "음성군",
+      "river_name": "오신천",
+      "width_class": "wide",
+      "width_proxy_m": 29.28,
+      "aoi_bbox_wgs84": [
+        127.6040502,
+        36.9960617,
+        127.6523797,
+        37.0359097
+      ],
+      "layers": {
+        "pan": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_09_43770_pan.tif"
+        },
+        "rgb": {
+          "status": "missing",
+          "source_path": "data/imagery/raw/site_09_43770_rgb.tif"
+        }
+      }
+    },
+    {
+      "id": "43150:다락골천:10",
+      "candidate_rank": 10,
+      "admin_code": "43150",
+      "admin_name": "제천시",
+      "river_name": "다락골천",
+      "width_class": "medium",
+      "width_proxy_m": 14.61,
+      "aoi_bbox_wgs84": [
+        128.1094088,
+        37.0374571,
+        128.1400212,
+        37.0687584
+      ],
+      "layers": {
+        "pan": {
+          "status": "ready",
+          "source_path": "data/imagery/raw/site_10_43150_pan.vrt",
+          "web_path": "/data/imagery/processed/site_10_43150/pan.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            40615,
+            31755
+          ],
+          "source_band_count": 1,
+          "source_resolution": [
+            0.49780283619769744,
+            0.49995191565735775
+          ],
+          "source_dtype": [
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and robust valid-boundary edge affine fit",
+          "georeferencing_rmse_m": 3.553,
+          "preview_size": [
+            3208,
+            4096
+          ],
+          "bounds_wgs84": [
+            128.109250855,
+            37.037293998,
+            128.140244948,
+            37.068916178
+          ],
+          "resolution_warning": null
+        },
+        "rgb": {
+          "status": "ready",
+          "source_path": "data/imagery/raw/site_10_43150_rgb.vrt",
+          "web_path": "/data/imagery/processed/site_10_43150/rgb.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            10153,
+            7938
+          ],
+          "source_band_count": 3,
+          "source_resolution": [
+            1.9912113447907898,
+            1.9998076626294312
+          ],
+          "source_dtype": [
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and robust valid-boundary edge affine fit",
+          "georeferencing_rmse_m": 3.553,
+          "preview_size": [
+            1367,
+            1746
+          ],
+          "bounds_wgs84": [
+            128.109245089,
+            37.037280415,
+            128.140256321,
+            37.068929732
+          ],
+          "resolution_warning": null
+        }
+      },
+      "reference_watercourses": {
+        "status": "ready",
+        "web_path": "/data/reference/site_10_43150_watercourses.geojson",
+        "source": "N3L_C0050000.shp",
+        "source_crs": "EPSG:5179",
+        "candidate_id": "43150:다락골천:10",
+        "candidate_rank": 10,
+        "max_distance_m": 20.0,
+        "feature_count": 40,
+        "intersecting_count": 38,
+        "total_length_m": 3423.438,
+        "inside_zone_length_m": 2776.323,
+        "inside_length_ratio": 0.811
+      }
+    }
+  ]
+}

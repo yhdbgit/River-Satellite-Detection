@@ -1,0 +1,343 @@
+{
+  "version": 1,
+  "site_count": 5,
+  "ready_layers": 6,
+  "expected_layers": 10,
+  "sites": [
+    {
+      "id": "regional:43110:보강천:1",
+      "candidate_rank": 1,
+      "admin_code": "43110",
+      "admin_name": "청주시",
+      "river_name": "보강천",
+      "width_class": "wide",
+      "width_proxy_m": 104.4,
+      "aoi_bbox_wgs84": [
+        127.5042209,
+        36.7617318,
+        127.5708924,
+        36.7847587
+      ],
+      "river_class": "regional",
+      "imagery_sources": [
+        {
+          "scene_id": "C1_20260127014932_26932_00467237",
+          "date_acquired": "2026-01-27",
+          "control_rmse_m": 0.678,
+          "aoi_coverage_ratio": 0.536536
+        }
+      ],
+      "file_stem": "regional_01_43110",
+      "layers": {
+        "pan": {
+          "status": "ready",
+          "source_path": "data/imagery/scenes/C1_20260127014932_26932_00467237_pan.vrt",
+          "web_path": "/data/imagery/processed/regional/regional_01_43110/pan.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            31898,
+            28717
+          ],
+          "source_band_count": 1,
+          "source_resolution": [
+            0.4997607207336289,
+            0.5003364012351568
+          ],
+          "source_dtype": [
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and length-corrected valid-edge affine fit",
+          "georeferencing_rmse_m": 0.678,
+          "preview_size": [
+            4096,
+            2009
+          ],
+          "bounds_wgs84": [
+            127.504137103,
+            36.761695014,
+            127.562614316,
+            36.784799629
+          ],
+          "resolution_warning": null
+        },
+        "rgb": {
+          "status": "ready",
+          "source_path": "data/imagery/scenes/C1_20260127014932_26932_00467237_rgb.vrt",
+          "web_path": "/data/imagery/processed/regional/regional_01_43110/rgb.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            7974,
+            7179
+          ],
+          "source_band_count": 3,
+          "source_resolution": [
+            1.9990428839345156,
+            2.001345604943395
+          ],
+          "source_dtype": [
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and length-corrected valid-edge affine fit",
+          "georeferencing_rmse_m": 0.678,
+          "preview_size": [
+            2606,
+            1280
+          ],
+          "bounds_wgs84": [
+            127.504137055,
+            36.761681492,
+            127.562603152,
+            36.78480865
+          ],
+          "resolution_warning": null
+        }
+      }
+    },
+    {
+      "id": "regional:43745:보강천:2",
+      "candidate_rank": 2,
+      "admin_code": "43745",
+      "admin_name": "증평군",
+      "river_name": "보강천",
+      "width_class": "wide",
+      "width_proxy_m": 142.14,
+      "aoi_bbox_wgs84": [
+        127.5590677,
+        36.7747593,
+        127.6369516,
+        36.8205777
+      ],
+      "river_class": "regional",
+      "imagery_sources": [],
+      "file_stem": "regional_02_43745",
+      "layers": {
+        "pan": {
+          "status": "out_of_coverage",
+          "source_path": []
+        },
+        "rgb": {
+          "status": "out_of_coverage",
+          "source_path": []
+        }
+      }
+    },
+    {
+      "id": "regional:43750:보강천:3",
+      "candidate_rank": 3,
+      "admin_code": "43750",
+      "admin_name": "진천군",
+      "river_name": "보강천",
+      "width_class": "wide",
+      "width_proxy_m": 107.19,
+      "aoi_bbox_wgs84": [
+        127.5036948,
+        36.7625261,
+        127.5703926,
+        36.7859053
+      ],
+      "river_class": "regional",
+      "imagery_sources": [
+        {
+          "scene_id": "C1_20260127014932_26932_00467237",
+          "date_acquired": "2026-01-27",
+          "control_rmse_m": 0.678,
+          "aoi_coverage_ratio": 0.623396
+        }
+      ],
+      "file_stem": "regional_03_43750",
+      "layers": {
+        "pan": {
+          "status": "ready",
+          "source_path": "data/imagery/scenes/C1_20260127014932_26932_00467237_pan.vrt",
+          "web_path": "/data/imagery/processed/regional/regional_03_43750/pan.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            31898,
+            28717
+          ],
+          "source_band_count": 1,
+          "source_resolution": [
+            0.4997607207336289,
+            0.5003364012351568
+          ],
+          "source_dtype": [
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and length-corrected valid-edge affine fit",
+          "georeferencing_rmse_m": 0.678,
+          "preview_size": [
+            4096,
+            2022
+          ],
+          "bounds_wgs84": [
+            127.50361353,
+            36.762488844,
+            127.562619191,
+            36.785945444
+          ],
+          "resolution_warning": null
+        },
+        "rgb": {
+          "status": "ready",
+          "source_path": "data/imagery/scenes/C1_20260127014932_26932_00467237_rgb.vrt",
+          "web_path": "/data/imagery/processed/regional/regional_03_43750/rgb.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            7974,
+            7179
+          ],
+          "source_band_count": 3,
+          "source_resolution": [
+            1.9990428839345156,
+            2.001345604943395
+          ],
+          "source_dtype": [
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and length-corrected valid-edge affine fit",
+          "georeferencing_rmse_m": 0.678,
+          "preview_size": [
+            2630,
+            1299
+          ],
+          "bounds_wgs84": [
+            127.503602284,
+            36.762475322,
+            127.562607989,
+            36.785945448
+          ],
+          "resolution_warning": null
+        }
+      }
+    },
+    {
+      "id": "regional:43760:보강천:4",
+      "candidate_rank": 4,
+      "admin_code": "43760",
+      "admin_name": "괴산군",
+      "river_name": "보강천",
+      "width_class": "wide",
+      "width_proxy_m": 77.58,
+      "aoi_bbox_wgs84": [
+        127.6246636,
+        36.8107859,
+        127.6783186,
+        36.844832
+      ],
+      "river_class": "regional",
+      "imagery_sources": [],
+      "file_stem": "regional_04_43760",
+      "layers": {
+        "pan": {
+          "status": "out_of_coverage",
+          "source_path": []
+        },
+        "rgb": {
+          "status": "out_of_coverage",
+          "source_path": []
+        }
+      }
+    },
+    {
+      "id": "regional:43750:백곡천:1",
+      "candidate_rank": 5,
+      "admin_code": "43750",
+      "admin_name": "진천군",
+      "river_name": "백곡천",
+      "width_class": "wide",
+      "width_proxy_m": 153.04,
+      "aoi_bbox_wgs84": [
+        127.2904669,
+        36.832806,
+        127.5031346,
+        36.9015538
+      ],
+      "river_class": "regional",
+      "imagery_sources": [
+        {
+          "scene_id": "C1_20260127014932_26932_00467237",
+          "date_acquired": "2026-01-27",
+          "control_rmse_m": 0.678,
+          "aoi_coverage_ratio": 0.325487
+        }
+      ],
+      "file_stem": "regional_05_43750",
+      "layers": {
+        "pan": {
+          "status": "ready",
+          "source_path": "data/imagery/scenes/C1_20260127014932_26932_00467237_pan.vrt",
+          "web_path": "/data/imagery/processed/regional/regional_05_43750/pan.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            31898,
+            28717
+          ],
+          "source_band_count": 1,
+          "source_resolution": [
+            0.4997607207336289,
+            0.5003364012351568
+          ],
+          "source_dtype": [
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and length-corrected valid-edge affine fit",
+          "georeferencing_rmse_m": 0.678,
+          "preview_size": [
+            4096,
+            2045
+          ],
+          "bounds_wgs84": [
+            127.383972397,
+            36.832684315,
+            127.503302517,
+            36.880626717
+          ],
+          "resolution_warning": null
+        },
+        "rgb": {
+          "status": "ready",
+          "source_path": "data/imagery/scenes/C1_20260127014932_26932_00467237_rgb.vrt",
+          "web_path": "/data/imagery/processed/regional/regional_05_43750/rgb.png",
+          "source_crs": "EPSG:5179",
+          "source_size": [
+            7974,
+            7179
+          ],
+          "source_band_count": 3,
+          "source_resolution": [
+            1.9990428839345156,
+            2.001345604943395
+          ],
+          "source_dtype": [
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "georeferencing_status": "reconstructed",
+          "georeferencing_method": "CAS500 auxiliary footprint and length-corrected valid-edge affine fit",
+          "georeferencing_rmse_m": 0.678,
+          "preview_size": [
+            4096,
+            2045
+          ],
+          "bounds_wgs84": [
+            127.38397235,
+            36.832670779,
+            127.503319341,
+            36.880626718
+          ],
+          "resolution_warning": null
+        }
+      }
+    }
+  ]
+}
